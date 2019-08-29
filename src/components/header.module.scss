@@ -1,0 +1,26 @@
+@import '../styles/global';
+
+
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.header__container {
+    padding: 6% 0% 4% 0%;
+    background-color: white;
+}
+
+.nav__wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: $roboto;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    a {
+        padding: 3% 4% 3% 4%;
+    }
+}

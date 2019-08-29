@@ -1,8 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
+import Layout from '../components/layout'
 
 export default () => (
-    <div>
+    <Layout>
         <h1>This page does not exist!</h1>
-    </div>
+        <Link to="/">Home</Link>
+    </Layout>
+    
 )
