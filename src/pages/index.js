@@ -4,10 +4,9 @@ import Layout from '../components/layout'
 
 export default () => (
     <Layout >
-        <div>
-            <h1>Frk Karlsson</h1>
-            <p>Hello index!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="content-index">
+            <h4>Hej och välkomna!</h4>
+            <p class="body-text">Med gedigen kunskap från ett av Italiens finaste skädderier besitter Frk Karlsson bred erfarenhet inom skrädderiyrket. Kunskapen gör det möjligt att välja den teknik som lämpar sig bäst utifrån det plagg som ska sys upp, oavsett om det är couture eller konfektion. Det är det genuina intresset för hantverket och att arbeta fram perfekt passform som...  ,</p>
         </div>
     </Layout>
 )
